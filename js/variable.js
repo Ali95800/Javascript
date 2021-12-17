@@ -34,7 +34,23 @@ let echapement = "je suis l'autre chaine de caractere";
 
 let number1 = 10;
 number1 = 15;
+let number2 = 55;
 let phraseNumber = "le chiffre est : " + number1 + "dégrés";
 console.log(phraseNumber);
+let phrase3 = ` Le chiffre est : ${number1} ${number2} `; //ceci est un backtick permet d'éviter la concaténation
+console.log(phrase3);
 
-let phrase3 = ` Le chiffre est : ${number1} `; //ceci est un backtick permet d'éviter la concaténation
+// ---------------------- Les types de variable --------------------
+
+let string = "Je suis une chaine de caractere";
+let number = 24;
+let number24 = "24";
+console.log(number + parseInt(number24));
+let boolean = true; // un boolean est true ou false
+let array = ["je", "suis", "Ali", 20, true, ["voiture", 15]]; //c'est un tableau et commence tjr par l'index 0
+console.log(array);
+console.log(array[1]); // ici on a "suis"
+
+let object = { prenom: "Ali", ville: "Cergy", km: 70 }; //l'objet fontionne avc des key et des values key:value
+
+console.log(object);
