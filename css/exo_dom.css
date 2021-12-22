@@ -1,0 +1,89 @@
+body {
+  background: url(../img/background.jpg) no-repeat center/cover;
+}
+
+/*
+    * header avc 1 h1 centré
+   
+    *
+   
+    * main avc 2 sections
+   
+    * 1 titre pr chaque section
+   
+    * dns chaque section 3 paragraph
+   
+    * au moin 1 img dns la section
+   
+    *
+   
+    * footer : mention legale et confidentialité 2 liens <a> centré
+   
+    * changer d'img en JS
+*/
+
+/*********************HEADER*************************/
+
+header {
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+}
+
+/*********************MAIN***************************/
+
+main {
+  height: auto;
+  width: 70%;
+  margin: auto;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  border-bottom: 1px solid red;
+}
+
+h3 {
+  color: white;
+}
+
+section {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+}
+
+.presentation {
+  display: flex;
+}
+
+.presentation1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.paragraphe {
+  text-align: center;
+  color: rgb(70, 67, 67);
+}
+
+img {
+  height: 300px;
+  width: 100%;
+}
+
+/*******************************Footer************************************/
+
+footer {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin: auto;
+}
