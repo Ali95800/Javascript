@@ -30,6 +30,6 @@ selectParagraphe[0].style.color = "white";
 let selectImg = document.querySelectorAll("img");
 console.log(selectImg);
 
-for (let i = 0; i < selectImg.length; i++) {
-  selectImg[2].src = "img/renji.jpg";
-}
+// for (let i = 0; i < selectImg.length; i++) {
+//   selectImg[2].src = "img/renji.jpg";
+// }

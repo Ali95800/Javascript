@@ -74,6 +74,28 @@ window.addEventListener("mouseup", () => {
   mouseMove.style.transform = "scale(1) translate(-50%, -50%)";
 });
 
+//MOUSSEENTER MOUSEOUT
+questionContainer.addEventListener("mouseenter", () => {
+  questionContainer.style.background = "purple";
+});
+questionContainer.addEventListener("mouseout", () => {
+  questionContainer.style.background = "blue";
+});
+
+//MOUSEOVER
+reponse.addEventListener("mouseover", () => {
+  reponse.style.transform = "rotate(10deg)";
+});
+reponse.addEventListener("mouseout", () => {
+  reponse.style.transform = "rotate(0deg)";
+});
+reponseF.addEventListener("mouseover", () => {
+  reponseF.style.transform = "rotate(-10deg)";
+});
+reponseF.addEventListener("mouseout", () => {
+  reponseF.style.transform = "rotate(0deg)";
+});
+
 // inputId.value = "toto";
 
 // inputId.addEventListener("input", function () {
